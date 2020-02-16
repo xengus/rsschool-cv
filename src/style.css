@@ -1,0 +1,96 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: grey;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,h2,h3 {
+  margin: 0;
+  text-transform: uppercase;
+  color: darkblue;
+}
+
+p {
+  margin: 0 10px;
+  font-style: italic;
+}
+
+.page-container {
+  width: 100%;
+  position: relative;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 15px;
+  background: url('img/background.jpg') center no-repeat/cover ;
+}
+
+.container {
+  max-width: 750px;
+  width: 100%;
+  margin-top: 20px;
+  line-height: 1.7;
+}
+
+header {
+  margin-top: 30px;
+}
+
+section {
+  max-width: 750px;
+}
+
+h1 {
+  font-size: 46px;
+}
+
+h2 {
+  color: 
+}
+
+h3 {
+  font-size: 20px;
+}
+
+ul {
+  margin: 0;
+}
+
+.ul_diploma {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ul_diploma li {
+  width: 50%;
+  text-align: left;
+}
+
+.ul_courses  {
+  width: 100%;
+  column-count: 2;
+}
+
+img {
+  width: 40%;
+  height: 50%;
+  position: absolute;
+  top: 490px;
+  right: 10px;
+  border-radius: 7%;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: .75;
+  transition: opacity .1s linear;
+  content: '';
+  background-color: cyan; 
+  border-radius: 2px;
+}
